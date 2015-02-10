@@ -1,14 +1,14 @@
 {
-  "name": "EHI-Server",
+  "name": "EHI-Website",
   "version": "0.0.1",
-  "description": "A IoT server",
+  "description": "Project website",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExtensibleHomeInterface/EHI-Server"
+    "url": "http://github.com/bandless55/EHI-Website"
   },
   "keywords": [
     "IoT"
@@ -16,14 +16,14 @@
   "author": "",
   "license": "none",
   "bugs": {
-    "url": "https://github.com/ExtensibleHomeInterface/EHI-Server/issues"
+    "url": "http://github.com/bandless55/EHI-Website/issues"
   },
-  "homepage": "https://github.com/ExtensibleHomeInterface/EHI-Server/wiki",
+  "homepage": "http://github.com/bandless55/EHI-Website/wiki",
   "devDependencies": {
     "jshint": "^2.6.0"
   },
   "dependencies": {
     "express": "^4.11.1",
-    "express-handlebars": "^1.1.0
+    "express-handlebars": "^1.1.0"
   }
 }
