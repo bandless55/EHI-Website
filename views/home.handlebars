@@ -1,11 +1,80 @@
-<div class="container-fluid">
-    <div class="row"  style="margin:35px">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-            <div class="jumbotron">
-                <h1>Website coming soon!</h1>
-                <p>We're working on creating a website with documentation, a usage guide, and more! Until then, check out our GitHub repo:</p>
-                <p><a class="btn btn-primary brn-lg btn-block" href="http://github.com/ExtensibleHomeInterface/EHI-Server" role="button">View Github Repository</a></p>
+{{>icons}}
+
+<div class="jumbotron">
+    <div class="container">
+        <h2 class="text-center">Connect, control, and graph any internet connected device</h2>
+        <br>
+        <p class="text-center">EHI connects all your devices, sensors, or MCU's in one place for easy real time control, graph, interaction, and more.</p>
+        <p class="text-center">
+            <button class="btn btn-lg btn-success" href="http://github.com/ExtensibleHomeInterface/EHI-Server">View on Github</button>
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon">
+                    <use xlink:href="#ei-chart-icon"></use>
+                </svg>
+                <h3>Real Time Graphing</h3> EHI-Server uses dygrphs for fast flexible time-series charting.
+                <br>
+                <a class="btn btn-info block-btn-margin" href="http://dygraphs.com/">Visit website</a>
+            </div>
+        </div>
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon">
+                    <use xlink:href="#ei-gear-icon"></use>
+                </svg>
+                <h3>Simplicity</h3> We make no assumptions about connected devices, thats all up to you.
+                <br>
+                <a class="btn btn-info block-btn-margin" href="/docs">view the Docs</a>
+            </div>
+        </div>
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon">
+                    <use xlink:href="#ei-archive-icon"></use>
+                </svg>
+                <h3>Data Logging</h3> Collect and store massive amounts of data with ease, thanks to InfluxDB.
+                <a class="btn btn-info block-btn-margin" href="http://influxdb.com/">Visit website</a>
             </div>
         </div>
     </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon">
+                    <use xlink:href="#ei-sc-github-icon"></use>
+                </svg>
+                <h3>Open Source</h3> All of our project is available on GitHub make sure to fork us!
+                <br>
+                <a class="btn btn-info block-btn-margin" href="http://github.com/ExtensibleHomeInterface/EHI-Server">View Repo</a>
+            </div>
+        </div>
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon" style="fill:red">
+                    <use xlink:href="#ei-exclamation-icon"></use>
+                </svg>
+                <h3>HELP</h3> I ran out of idea's for this one...
+                <br>
+                <a class="btn btn-info block-btn-margin" href="#">Text goes here</a>
+            </div>
+        </div>
+        <div class="col-md-4 block">
+            <div class="text-center block-margin">
+                <svg class="icon">
+                    <use xlink:href="#ei-calendar-icon"></use>
+                </svg>
+                <h3>The Future</h3> We have a long road ahead, check out our dev blog for project updates.
+                <a class="btn btn-info block-btn-margin" href="/blog">read the blog</a>
+            </div>
+        </div>
+    </div>
+</div>
 </div>

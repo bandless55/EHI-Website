@@ -17,6 +17,21 @@ app.get('/', function(req, res){
     res.render('home', {
         active : {active_home : true}
     });
-});    
+});  
+app.get('/docs', function(req, res){
+    res.render('about', {
+        active : {active_docs : true}
+    });
+}); 
+app.get('/blog', function(req, res){
+    res.render('about', {
+        active : {active_blog : true}
+    });
+}); 
+app.get('/about', function(req, res){
+    res.render('about', {
+        active : {active_about : true}
+    });
+});
 
 app.listen(3000);

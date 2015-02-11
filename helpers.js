@@ -12,8 +12,6 @@ exports.getURL = function(context){
     return '/modules/'+context.data.root.sidebar.index;
 };
 
-
-
 exports.isNumber = function(type, options){
     if(type == 'number')
         return options.fn(this);
@@ -22,8 +20,6 @@ exports.isRadio = function(type, options){
     if(type == 'radio')
         return options.fn(this);
 };
-
-
 
 exports.DEBUG = function(data, context){
     console.log('data:\n' + util.inspect(data));
